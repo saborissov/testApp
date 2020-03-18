@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="px3-Av-Rmz">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Book-->
         <scene sceneID="i6T-JG-97A">
             <objects>
                 <viewController id="apa-WD-sXT" sceneMemberID="viewController">
@@ -17,13 +17,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="ef1-rI-asG"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="vIa-rd-2Np"/>
+                    <tabBarItem key="tabBarItem" title="Book" image="book" catalog="system" id="vIa-rd-2Np"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntI-hv-bya" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="98" y="896"/>
         </scene>
-        <!--Item-->
+        <!--Notification-->
         <scene sceneID="VEZ-3e-oAJ">
             <objects>
                 <viewController id="1FY-uH-Wda" sceneMemberID="viewController">
@@ -33,13 +33,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="GQs-hM-hYb"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="ZRi-Pu-jDI"/>
+                    <tabBarItem key="tabBarItem" title="Notification" image="bell" catalog="system" id="ZRi-Pu-jDI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MsO-4k-9j2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="860" y="896"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="dI3-65-rUQ">
             <objects>
                 <viewController id="dDn-Fb-Lab" sceneMemberID="viewController">
@@ -49,13 +49,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="wYX-9w-ks6"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="yt0-Ko-g42"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="yt0-Ko-g42"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gPr-ed-wV3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1647" y="896"/>
         </scene>
-        <!--Item 1-->
+        <!--Folder-->
         <scene sceneID="rqP-mj-h7P">
             <objects>
                 <viewController id="ZXN-00-gP4" sceneMemberID="viewController">
@@ -65,7 +65,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="H0x-aG-x88"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="xbY-4Q-2gg"/>
+                    <tabBarItem key="tabBarItem" title="Folder" image="folder" catalog="system" id="xbY-4Q-2gg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8NU-xN-QtA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,4 +92,10 @@
             <point key="canvasLocation" x="44" y="50"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bell" catalog="system" width="64" height="62"/>
+        <image name="book" catalog="system" width="64" height="50"/>
+        <image name="folder" catalog="system" width="64" height="46"/>
+        <image name="person" catalog="system" width="64" height="58"/>
+    </resources>
 </document>
